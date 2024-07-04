@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(27, 79, 223);
+  padding: 20px 40px;
+  justify-content: space-between;
+  display: flex;
+  color: aliceblue;
+}
+header img{
+  width: 80px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  h1{
+    font-size: 25px;
+  }
+
+  header img {
+    width: 8vw; 
+  }
+
+  header h2 {
+    font-size: 12px; 
+    padding: 15px; 
+  }
+
+}
